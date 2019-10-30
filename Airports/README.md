@@ -9,7 +9,7 @@ Modified By: Jerrica Bobadilla
 
 1. Create a new database called `flights`, connect to it, and run the following code (given to you in the `flights.sql` file):
 
-   - Note: You can run this .sql file using `psql -d flights flights.sql`
+   - Note: You can run this .sql file using `psql -d flights < flights.sql`
 
    ```sql
    CREATE TABLE airlines (
