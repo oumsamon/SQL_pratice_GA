@@ -21,22 +21,23 @@ We're going to use what we've learned already about searching with SQL commands,
 
 - Use the [find_carmen.sql](find_carmen.sql) file as your "answer sheet"
 - From the command line, let's create a new database called `carmen` and populate it with the SQL found in `world.sql`
-
-Use the postgres shell:
+- Run the following from your bash prompt:
+```
+createdb carmen
+```
+- Inside your `/Carmen` directory, run the following command to set up your tables and seed your database:
 
 ```
-# Enter psql
-psql
-
-# Create database
-CREATE DATABASE carmen;
-
-# Connect to carmen
-\c carmen
-\i starter-code/world.SQL
+psql -d carmen < starter-code/world.sql
 ```
 
 Then, use the clues below to create the appropriate SQL queries to help you find Carmen and then, tell us where she's heading!! (Record your answers in the [find_carmen.sql](find_carmen.sql) file). Don't forget to git commit when you've found her!
+
+- To run your queries in `find_carmen.sql`, run the following command inside the `/Carmen` directory:
+
+```
+psql -d carmen < find_carmen.sql
+```
 
 ### The Clues
 
