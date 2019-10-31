@@ -1,5 +1,3 @@
-![ga](/ga_cog.png)
-
 # NFL
 
 ---
