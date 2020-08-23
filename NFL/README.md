@@ -12,7 +12,7 @@ Competencies: Basic SQL<br>
 ### Schema and seed
 
 You are provided with a schema file [schema.sql](nfl_seed_data/schema.sql) and two seed files
-`players.sql`, `teams.sql` that are also in the `nfl_seed_data` folder. Create a new database called `nfl` and use the schema and seed file to populate your database.
+`players.sql`, `teams.sql` that are also in the `nfl_seed_data` folder. Create a new database called `nfl` and use the schema and seed file to populate your database. **NOTE: Be sure to first run the schema file, then the teams, then the players last.**
 
 <hr>
 :red_circle: "Commit: NFL db seeded"
